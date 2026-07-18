@@ -1,0 +1,40 @@
+
+
+body {
+    background-color: rgb(2, 2, 2);
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+}
+
+header {
+    grid-column: span 3;
+    text-align: center;
+    border: 2px solid rgb(80, 0, 0);
+    margin-bottom: 5px;
+}
+h1 {
+    color: maroon;
+    font-size: 10px;
+}
+nav {
+    color:red;
+}
+main {
+    color:red;
+}
+aside {
+    color:red;
+}
+footer {
+    color:red;
+    text-align: center;
+    grid-column: span 3;
+}
+button {
+    accent-color: red;
+}
