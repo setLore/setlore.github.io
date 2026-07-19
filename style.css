@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 800px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 200px 1fr 200px;
@@ -17,7 +17,7 @@ header {
     border: 2px solid rgb(80, 0, 0);
     margin-bottom: 5px;
 }
-h1 {
+header h1 {
     color: maroon;
     font-size: 1vw;
 }
@@ -26,17 +26,23 @@ nav {
 }
 main {
     color:red;
+    text-align: left;
+    border: 2px solid rgb(80, 0, 0);
+    grid-column: span 2;
 }
 aside {
     color:red;
+    border: 2px solid rgb(80, 0, 0);
+    margin-left: 5px;
+    grid-column: span 1;
+    padding: 5px;
+    box-sizing: border-box;
+    
 }
 footer {
-    color:red;
     text-align: center;
     grid-column: span 3;
-}
-button {
-    accent-color: red;
+    padding-top: 10px;
 }
 img {
     image-rendering: pixelated;
@@ -44,4 +50,12 @@ img {
 header pre {
     font-size: 1vw;
     font-size: calc(8px + 0.5vw);
+}
+p {
+    margin: 0;
+}
+
+.footer_text {
+    color:rgb(126, 60, 60);
+    padding:2px
 }
