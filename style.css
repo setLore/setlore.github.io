@@ -41,3 +41,7 @@ button {
 img {
     image-rendering: pixelated;
 }
+header pre {
+    font-size: 1vw;
+    font-size: calc(8px + 0.5vw);
+}
