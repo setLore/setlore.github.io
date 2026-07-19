@@ -19,7 +19,7 @@ header {
 }
 h1 {
     color: maroon;
-    font-size: 10px;
+    font-size: 1vw;
 }
 nav {
     color:red;
@@ -37,4 +37,7 @@ footer {
 }
 button {
     accent-color: red;
+}
+img {
+    image-rendering: pixelated;
 }
